@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import Imagem1 from './imgs/imagem1.png'
 
