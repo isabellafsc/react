@@ -1,4 +1,5 @@
 import React from 'react'
+import Relogio from './components/Relogio'
 import './App.css'
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
   return (
     <>
       <section className='caixa'>
+        <Relogio/>
         <h1 style={{ color: 'red', fontSize: '5em' }}> CFB Cursos</h1>
         <h2 style={textoDestaque}>Curso de React</h2>
         <p className="texto">
